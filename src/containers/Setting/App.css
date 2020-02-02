@@ -1,0 +1,16 @@
+.settingform .ant-form-item-label label {
+    color: rgba(204, 204, 204, 1);
+}
+
+.settingform .ant-checkbox-wrapper, .settingform .ant-form-text {
+    color: rgba(204, 204, 204, 1);
+}
+
+.ant-form-text {
+    padding-right: 0;
+}
+
+.loading {
+    text-align: center;
+    margin-top: 20px;
+}

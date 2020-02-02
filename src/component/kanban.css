@@ -1,0 +1,82 @@
+.kanban {
+  background-color: #1f2021;
+  overflow: auto;
+}
+
+.kanban-header {
+  background-color: #000000;
+  border-bottom: 2px rgb(110, 130, 120) solid;
+  color: #e6e6e6;
+  font-size: 36px;
+  line-height: 80px;
+  padding: 0px 30px 0px 30px;
+  width: 100%;
+}
+
+.kanban-body {
+  color: #e6e6e6;
+}
+
+.kanban-body hr{
+  background-color: #606060;
+  border: 0;
+  height: 1px;
+  margin-bottom: 30px;
+  margin-top: -3px;
+}
+
+.kanban-info {
+  background: linear-gradient(#3b3c3c, #262728);
+  font-size: 24px;
+  line-height: 40px;
+  height: 250px;
+  box-sizing: border-box;
+  padding: 100px 0px 0px 80px;
+}
+
+.kanban-info-text {
+  border: 1px dashed #606060;
+  font-size: 60px;
+  float: left;
+  padding: 20px;
+}
+
+.kanban-time {
+  float: right;
+  font-size: 40px;
+  margin-right: 100px;
+  margin-top: 20px;
+  font-family: Courier;
+}
+
+.footerStyle{
+  background: rgb(34, 39, 49);
+  color: rgba(145, 145, 145, 1);
+  text-align: center;
+  font-size: 11px;
+  font-family: Microsoft YaHei;
+}
+.titleStyle{
+  color: rgba(204, 204, 204, 1);
+	font-size: 22px;
+  text-align: center;
+  line-height: 50px;
+  font-family: PingFang SC;
+}
+.titleTime{
+  float: right;
+  line-height: 50px;
+  color: rgba(204, 204, 204, 1);
+  font-size: 15px;
+  font-family: PingFang SC;
+}
+.rowStyle{
+  margin-bottom: 25px;
+  margin-top: 15px;
+}
+.breadcrumbStyle{
+  line-height: 50px;
+}
+.breadcrumbStyle span{
+  color:rgba(204, 204, 204, 1);
+}

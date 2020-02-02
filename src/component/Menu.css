@@ -1,0 +1,96 @@
+.ant-layout-header{
+    background: linear-gradient(to right,#185a9d, #43cea2);
+    height: 56px;
+    line-height: 56px;
+}
+
+.ant-menu-dark, .ant-menu-dark .ant-menu-sub{
+    background: none;
+}
+.ant-menu.ant-menu-dark .ant-menu-item-selected, .ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected{
+    
+    background-color: transparent;
+    border-bottom: rgba(0, 255, 255, 1) 3px solid;
+    line-height: 53px;
+}
+.MenuStyle{
+	line-height: 56px;
+    height: 56px;
+    font-size: 15px;
+    font-family: Microsoft YaHei UI;
+}
+/* .downStyle{
+ } */
+.MenuLiStyle{
+	padding: 0 15px;
+}
+.userNameStyle{
+	color: #fff;
+	font-family: Microsoft YaHei UI;
+	margin-left: 10px;
+}
+/* .menuDroplist div{
+    
+} */
+.ant-menu-horizontal > .ant-menu-item:hover, .ant-menu-horizontal > .ant-menu-submenu:hover, .ant-menu-horizontal > .ant-menu-item-active, .ant-menu-horizontal > .ant-menu-submenu-active, .ant-menu-horizontal > .ant-menu-item-open, .ant-menu-horizontal > .ant-menu-submenu-open, .ant-menu-horizontal > .ant-menu-item-selected, .ant-menu-horizontal > .ant-menu-submenu-selected{
+    color:rgba(255, 255, 255, 0.65);
+}
+.ant-menu-dark.ant-menu-submenu-popup{
+    background: linear-gradient(to right,#185a9d, #43cea2);
+}
+.menuDroplist:hover{
+    color:rgba(255, 255, 255, 0.65)
+}
+.ant-menu-item, .ant-menu-submenu-title:hover{
+    color:rgba(255, 255, 255, 0.65)
+}
+.menuicon > i >.anticon-user{
+    margin-right: 0px;
+}
+/* .ant-menu.ant-menu-dark .ant-menu-item-selected, .ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected{
+ } */
+.ant-menu-item:hover, .ant-menu-item-active, .ant-menu:not(.ant-menu-inline) .ant-menu-submenu-open, .ant-menu-submenu-active, .ant-menu-submenu-title:hover{
+    color:rgba(255, 255, 255, 1);
+}
+.ant-menu-horizontal > .ant-menu-item > a{
+    font-size: 15px;
+    font-family: Microsoft YaHei;
+    color:rgba(255, 255, 255, 1);
+}
+.ant-menu-horizontal > .ant-menu-item > a:hover{
+    color:rgba(255, 255, 255, 1);
+}
+
+.ant-menu-horizontal > .ant-menu-item:hover, .ant-menu-horizontal > .ant-menu-submenu:hover, .ant-menu-horizontal > .ant-menu-item-active, .ant-menu-horizontal > .ant-menu-submenu-active, .ant-menu-horizontal > .ant-menu-item-open, .ant-menu-horizontal > .ant-menu-submenu-open, .ant-menu-horizontal > .ant-menu-item-selected, .ant-menu-horizontal > .ant-menu-submenu-selected{
+    border-bottom: 3px solid rgba(0, 255, 255, 1); 
+    color:rgba(255, 255, 255, 1);
+}
+.ant-menu-submenu > .ant-menu{
+    background: #37404c;
+}
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected{
+    background: none;
+}
+.ant-menu-item-selected > a, .ant-menu-item-selected > a {
+    color: rgba(255, 255, 255, 0.65);
+}
+.ant-menu-item-selected  > a:hover{
+    color: rgba(255, 255, 255, 1);
+}
+.ant-menu-item > a{
+    color: rgba(255, 255, 255, 0.65);
+}
+.ant-menu-item > a:hover{
+    color: rgba(255, 255, 255, 1);
+}
+.checkBoxStyle{
+    float:right;
+}
+.checkBoxStyle span{
+    padding-right: 0px;
+}
+.subMenuStyle{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 1);
+}
+

@@ -1,0 +1,42 @@
+.ant-tabs-nav .ant-tabs-tab-active{
+
+
+}
+.ant-tabs-nav .ant-tabs-tab{
+  color: rgba(0, 255, 255, 1);
+  font-size: 15px;
+}
+.ant-tabs-ink-bar{
+  background-color: rgba(0, 255, 255, 1);
+}
+.ant-tabs-nav .ant-tabs-tab:hover {
+  color: rgba(0, 255, 255, 1);
+}
+.ant-tabs-bar{
+  border-bottom: 0px;
+}
+.ant-btn.disabled, .ant-btn[disabled], .ant-btn.disabled:hover, .ant-btn[disabled]:hover, .ant-btn.disabled:focus, .ant-btn[disabled]:focus, .ant-btn.disabled:active, .ant-btn[disabled]:active, .ant-btn.disabled.active, .ant-btn[disabled].active{
+  background-color: rgba(83, 83, 83, 1);
+  opacity: .2;
+}
+
+
+.activeButton{
+  background: rgba(126, 126, 126, 1);
+  margin-right: 13px;
+  border-width: 0;
+  color: black;
+}
+.activeButton:hover{
+  background: rgba(160, 160, 160, 1);
+}
+.activeButton:focus{
+  background: rgba(126, 126, 126, 1);
+}
+.activeButton:not([disabled]):hover{
+  background: rgba(160, 160, 160, 1);
+}
+.ant-badge-status-dot{
+  width: 12px;
+  height: 12px;
+}

@@ -1,0 +1,80 @@
+.logo {
+  width: 120px;
+  height: 31px;
+  background: rgba(255,255,255,.2);  
+  margin: 16px 24px 16px 0;
+  float: left;
+}
+.contentStyle{
+  background: rgb(255, 255, 255);
+  min-height: 768px;
+}
+
+.backgroundImg{
+  background: linear-gradient(to right,#185a9d, #43cea2);
+  height: 100%;
+  line-height: 100%;
+  /* background-image:url("./img/bg.png") */
+
+}
+.backgroundPatten{
+  background-image: url("./img/top.svg")  ;
+  background-repeat: no-repeat;
+  background-size: 670px 400px;
+
+
+}
+.backgroundBottom{
+  background-image: url("./img/bottom.svg") ;
+  background-repeat: no-repeat;
+  background-position: right bottom; /*Positioning*/
+  background-size: 800px 500px;
+
+}
+
+.login-form {
+  /* max-width: 420px; */
+  padding: 26px 70px ;
+  background-color: rgb(49, 44, 34,1);
+  border-radius:32px;
+  
+  width: 410px;
+  /* text-align: center; */
+  margin: 0px auto;
+  position: relative;
+  top: 176px;
+ 
+}
+.login-form img{
+  margin: 0px 0px 16px 0px;
+}
+
+.login-form  label{
+  color: rgba(0, 255, 255, 1);
+  margin-left: 16px;
+  font-weight:100;
+}
+.login-form  input{
+  border-radius:32px;
+  background: rgba(0,0,0,0);
+  color:#fff;
+
+}
+
+.login-form:before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle ;
+  height: 100%;
+}
+.login-form-forgot {
+  float: right;
+}
+.login-form-button {
+  width: 100%;
+  background: linear-gradient(to right,#185a9d, #43cea2);
+  border-radius:32px;
+  margin-top: 28px
+
+
+}

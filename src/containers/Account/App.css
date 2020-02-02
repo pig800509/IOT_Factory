@@ -1,0 +1,289 @@
+.logo {
+  width: 120px;
+  height: 31px;
+  background: rgba(255,255,255,.2);  
+  margin: 16px 24px 16px 0;
+  float: left;
+}
+.btn-right{
+  margin-bottom: 10px;
+  position: relative;
+  z-index: 99;
+  float: right;
+  margin-right: 10px;
+}
+.btnStyle{
+  margin-right: 10px;
+}
+.modalStyle{
+  width: 48%;
+  display: inline-block;
+
+}
+.spanStyle{
+  line-height: 36px;
+}
+.modalDivStyle{
+  margin-top: 10px;
+  display: inline-block;
+}
+.ant-upload.ant-upload-select-picture-card{
+  border-radius: 50%;
+  min-width:250px;
+  height:250px;
+}
+.searchColor {
+  margin-right: 10px;
+}
+.searchColor input{
+  background:#222731;
+  color: #fff;
+}
+.searchColor i{
+  color: #fff;
+}
+.searchColor i:hover{
+  color: #fff;
+}
+.addColor{
+  background: rgba(58, 180, 191, 1);
+  margin-right: 2px;
+  border-width: 0;
+  /* font-weight: bold; */
+
+}
+.addColor:hover{
+  background: rgba(160, 160, 160, 1);
+}
+.addColor:focus{
+  background: rgba(58, 180, 191, 1);
+}
+.addColor:not([disabled]):hover{
+  background: rgba(58, 180, 191, 1);
+}
+.addColor:hover i{
+  color: rgba(255, 255, 255, 1);
+}
+.addColor i{
+  color: rgba(255, 255, 255, 1)
+}
+
+.ant-table-thead > tr > th{
+  background: #222731;
+  color:rgba(145, 145, 145, 1);
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  border-bottom: 1px solid rgba(103, 103, 103, 1);
+}
+.ant-table-placeholder{
+  background: none;
+}
+
+.ant-table-thead > tr.ant-table-row-hover > td, .ant-table-tbody > tr.ant-table-row-hover > td, .ant-table-thead > tr:hover > td, .ant-table-tbody > tr:hover > td{
+ 
+  background: #222731;
+}
+.ant-table-tbody > tr > td {
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  color: rgba(204, 204, 204, 1);
+  border-bottom: 1px solid rgba(56, 56, 56, 1);
+}
+span.ant-switch.ant-switch-checked{
+  background: rgba(0, 179, 179, 1);
+}
+/* .ant-switch-checked {
+  background: rgba(0, 179, 179, 1);
+} */
+.ant-switch {
+  background-color:rgba(166, 166, 166, 1);
+  border: 1px solid #222731b8;
+}
+.ant-table-column-sorter {
+  color: rgba(145, 145, 145, 1);
+}
+/*.ant-btn:focus{
+  background:rgba(80, 80, 80, 1);
+  color:#fff;
+}*/
+.ant-table-thead > tr > th.ant-table-column-sort{
+  background: #222731;
+}
+
+.ant-layout-content{
+  padding: 0px 50px;
+  background: rgb(34, 39, 49);
+}
+.contentStyle{
+  background: #222731;
+  min-height: 715px;
+}
+
+.demo-nav {
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 16px;
+  /* background: #f8f8f8; */
+}
+.demo-nav a {
+  line-height: 30px;
+  padding: 0 8px;
+}
+.uploadpic > .ant-upload.ant-upload-select-picture-card{
+  width: 216px;
+  height: 144px;
+  border-radius:5px;
+  min-height: 144px;
+  min-width: 216px;
+}
+.actionbtn,.actionbtn:focus{
+  background: rgba(0, 186, 173, 1);
+  color:rgba(255, 255, 255, 1);
+  border: 0;
+  margin-right: 13px;
+}
+.actionbtn:hover{
+  background: rgba(95, 205, 198, 1);
+  color:rgba(255, 255, 255, 1);
+}
+.actionbtn[disabled],.actionbtn[disabled]:hover{
+  color: white;
+}
+.editdataprocessrulespan{
+  line-height: 32px;
+  /* font-weight: bold; */
+  color: rgba(128, 128, 128, 1);
+  font-size: 14px;
+}
+.popuprow th.classcolor,.popuprow .ant-table-thead tr:hover  th.classcolor,.popuprow th.ant-table-selection-column,.popuprow tr:hover th.ant-table-selection-column{
+  color: rgba(166, 166, 166, 1);
+  font-size: 14px;
+  border-bottom: 1px solid  rgba(80, 80, 80, 0.5);
+}
+.popuprow .classcolor, .popuprow .ant-table-selection-column,.popuprow tr:hover .classcolor, .popuprow tr:hover .ant-table-selection-column{
+  background:rgba(255, 255, 255, 1);
+  border-bottom: 1px solid #e8e8e8;
+  color: rgba(128, 128, 128, 1);
+  padding: 16px 4px;
+}
+.ant-layout-footer{
+  background: rgb(34, 39, 49);
+  color: rgba(145, 145, 145, 1);
+
+}
+.cycletimeDiv{
+  line-height: 63px;
+  width: 100%;
+  color: rgba(229, 229, 229, 1);
+  font-size: 14px;
+  text-align: center;
+  display: inline-block;
+  border: 1px solid rgba(103, 103, 103, 1);
+  vertical-align: middle;
+}
+.cycletimeDiv.titleBackgroundOdd{
+  background-color: rgba(64, 87, 115, 1);
+}
+.cycletimeDiv.titleBackgroundEven{
+  background-color: rgba(22, 51, 86, 1)
+}
+.cycletimeDivOneMachine{
+  width: 10%;
+  vertical-align: middle;
+}
+.cycletimeDivMachine{
+  line-height: 31px;
+  width: 100%;
+  font-size: 14px;
+  text-align: center;
+  vertical-align: middle;
+}
+.cycletimeDivMachineNameOdd{
+  background-color: rgba(229, 229, 229, 1);
+  border: 1px solid rgba(103, 103, 103, 1);
+}
+.cycletimeDivMachineNameEven{
+  background-color: rgba(166, 166, 166, 1);
+  border: 1px solid rgba(103, 103, 103, 1);
+}
+.cycletimeDivMachineValue{
+  background-color: rgba(34, 39, 49, 1);
+  color: rgba(204, 204, 204, 1);
+}
+.cycletimeDivMachineInline{
+  display: inline-block;
+  border: 1px solid rgba(103, 103, 103, 1);
+}
+.cycletimeLine{
+  margin-top: 9px;
+}
+.cycletimeInline{
+  display: inline-block;
+  vertical-align: middle;
+  width: 90%;
+}
+.cycletimeRight{
+  width: 100%;
+  /* margin-top: 9px; */
+}
+.cycletimeRightTitleOdd{
+  background-color: rgba(64, 87, 115, 1);
+  color: rgba(229, 229, 229, 1);
+  font-size: 14px;
+}
+.cycletimeRightValueOdd{
+    background-color: rgba(229, 229, 229, 1);
+    color: rgba(56, 56, 56, 1);
+    font-size: 14px;
+}
+.cycletimeRightTitleEven{
+  background-color: rgba(22, 51, 86, 1);
+  color: rgba(229, 229, 229, 1);
+  font-size: 14px;
+}
+.cycletimeRightValueEven{
+  background-color: rgba(166, 166, 166, 1);
+  color: rgba(56, 56, 56, 1);
+  font-size: 14px;
+}
+.CtRateStyle{
+  /* float: right; */
+  line-height: 32px;
+  color: rgba(204, 204, 204, 1);
+  font-size: 14px;
+}
+.CtRateStyle span{
+  margin-left: 5px;
+}
+.CtRate {
+ float: right;
+}
+.ctConfigSetting span{
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+  color: rgba(204, 204, 204, 1);
+}
+.ctConfigBtn{
+  text-align: right;
+}
+.demo-nav  .linkTab,.linkTab:hover,.linkTab:focus{
+  color: rgba(0, 255, 255, 1);
+  font-size: 15px;
+  text-decoration:none;
+  padding: 12px;
+}
+.demo-nav .linkTabSelected,.linkTabSelected:hover,.linkTabSelected:focus{
+  color: rgba(0, 255, 255, 1);
+  font-size: 15px;
+  font-weight: bold;
+  border-bottom-style: solid;
+  border-width: 1px;
+  text-decoration:none;
+  padding: 12px;
+}
+.eventAlertDiv{
+  margin: 10px 0 5px 25px
+}
+.systemInfoStyle{
+  margin: 20px 0;
+}

@@ -1,0 +1,167 @@
+.logo {
+  width: 120px;
+  height: 31px;
+  background: rgba(255,255,255,.2);  
+  margin: 16px 24px 16px 0;
+  float: left;
+}
+
+.item {
+  float: left;
+  cursor: move;
+  background:rgba(255,255,255,0);  
+  width: 66px;
+  list-style:none;
+  padding: 3px;
+ 
+}
+.item span {
+  color: silver;
+  line-height: 25px;
+}
+
+.item p {
+  color: silver;
+  line-height: 25px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.machineItem {
+  float: left;
+  cursor: move;
+  background:rgba(255,255,255,0);  
+  width: 66px;
+  list-style:none;
+  padding: 3px;
+ 
+}
+.machineItem span {
+  color: silver;
+  line-height: 25px;
+}
+
+.machineItem p {
+  color: silver;
+  line-height: 25px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.remove{
+  float: right;
+}
+ 
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+/* .container {
+  background-color: tomato;
+  padding: 10px;
+}
+
+.container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.box {
+  background-color: steelblue;
+  color: #ffffff;
+  float: left;
+  font-size: 24px;
+  line-height: 100px;
+  margin: 0.5%;
+  width: 49%;
+  height: 100px;
+  text-align: center;
+} */
+
+.container {
+  /*background-color: gray;*/
+  display: block;
+  /*flex-wrap: wrap;*/
+  padding: 10px;
+  white-space:nowrap;
+}
+
+.box {
+  background-color: steelblue;
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 100px;
+  margin: 0.5%;
+  width: 49%;
+  height: 100px;
+  text-align: center;
+}
+
+.box:hover {
+  cursor: move;
+}
+
+
+.slider-container {
+  margin: 0 auto;
+  margin-top: 25px;
+  width: 15%;  
+}
+
+.slider {
+  width: 100%;
+  margin:0;
+
+}
+
+.slider[type=range]::-ms-track {
+  width: 100%;
+  cursor: pointer;
+  /* Hides the slider so custom styles can be added */
+  background: transparent; 
+  border-color: transparent;
+  color: transparent;
+}
+
+.slider-trashhold-container {
+  display: flex;
+  justify-content: space-between;
+  color: #ccc;
+  font-size: 10px;
+}
+.AddItem{
+  margin-bottom: 10px;
+}
+.scroll{
+  overflow-x:scroll;
+  overflow-y:hidden;
+}
+.addstyle{
+  margin: 10px 0 0 10px;
+}
+.div1{
+  width: 350px;
+    height: 70px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+}
+
+.slick-slide{
+  border:0px;
+  color:silver;
+  font-size:10px;
+  height:42px;
+  /* width:90px; */
+  float:left;
+  padding: 0px 4px;
+  /* margin-right:8px; */
+  /* padding:3px; */
+}
+
+.slickItem {
+  margin: 0 2px;
+  background-color:#405773;
+  border-radius:4px;
+  padding: 4px 6px;
+}

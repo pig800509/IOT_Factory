@@ -1,0 +1,45 @@
+{
+  "name": "factory",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "ant-design-pro": "^2.0.0-beta.2",
+    "antd": "^3.8.1",
+    "audit": "0.0.6",
+    "base64-img": "^1.0.4",
+    "basscss": "^8.0.4",
+    "bizcharts": "^3.1.10",
+    "browserify-fs": "^1.0.0",
+    "fix": "0.0.6",
+    "immutability-helper": "^2.8.1",
+    "jest-cli": "^23.5.0",
+    "jsonwebtoken": "^8.3.0",
+    "lodash": "^4.17.10",
+    "moment": "^2.22.2",
+    "npm": "^6.4.1",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-dnd": "^5.0.0",
+    "react-dnd-html5-backend": "^5.0.1",
+    "react-dom": "^16.4.1",
+    "react-router-config": "^1.0.0-beta.4",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^1.1.5",
+    "react-slick": "^0.23.1",
+    "react-sortable-hoc": "^0.8.3",
+    "slick-carousel": "^1.8.1",
+    "socket.io-client": "^2.1.1",
+    "styled-components": "^3.3.3",
+    "uniqid": "^5.0.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "theme": {
+    "primary-color": "#f60",
+    "heading-color": "#fff"
+  }
+}

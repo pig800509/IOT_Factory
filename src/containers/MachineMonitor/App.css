@@ -1,0 +1,220 @@
+.main .ant-table-thead > tr > th,
+.main .ant-table-tbody > tr > td {
+  width: 100px;
+  padding: 0;
+}
+.main .ant-table-thead > tr > th {
+  height: 42.6px;
+}
+.main .ant-table-tbody > tr > td {
+  height: 35px;
+  -webkit-animation: fadeIn 1s; /* Safari 4+ */
+  -moz-animation: fadeIn 1s; /* Fx 5+ */
+  -o-animation: fadeIn 1s; /* Opera 12+ */
+  animation: fadeIn 1s; /* IE 10+, Fx 29+ */
+}
+.main .ant-table-tbody .statusbar > td {
+  height: 30.6px;
+}
+.main .table-body {
+  display: flex;
+  justify-content: left;
+}
+.linebar {
+  display: flex;
+}
+.linebar th {
+  min-width: 200px;
+}
+.prodlines {
+  display: flex;
+  overflow-x: hidden;
+}
+.prodlines th {
+  min-width: 100px;
+}
+.arrow-icon {
+  -webkit-align-self: center; /* Safari 7.0+ */
+  align-self: center;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 20px;
+  color: rgb(204, 204, 204);
+}
+.main .ant-tabs-tab-prev-icon,
+.main .ant-tabs-tab-next-icon {
+  color: rgb(204, 204, 204);
+}
+.main .ant-tabs-tab-arrow-show:hover {
+  background: #36495f;
+}
+.pl-arrow {
+  border-top: 1px solid rgb(93, 101, 111);
+  border-bottom: 1px solid rgb(93, 101, 111);
+  min-width: 35px;
+  /* flex-grow: 0.06; */
+  background: #383c45;
+  display: -webkit-flex; /* Safari */
+  /* display: flex; */
+}
+
+.pl-arrow:hover {
+  background: #2f323a;
+}
+
+.tabs {
+  display: block;
+  background-color: #405773;
+  margin-left: auto;
+  margin-right: auto;
+}
+.tabs span {
+  color: #cccccc;
+}
+
+.main .ant-tabs-bar {
+  margin: 0;
+}
+
+.main .ant-tabs-nav .ant-tabs-tab {
+  cursor: auto;
+}
+
+.text-normal > span {
+  color: #32cd32;
+}
+.text-warning > span {
+  color: gold;
+}
+.text-critical > span {
+  color: red;
+}
+/* .text-gray > span {
+  visibility: hidden;
+} */
+.status-normal {
+  background: #32cd32;
+}
+.status-warning {
+  background: gold;
+}
+.status-critical {
+  background: red;
+}
+.status-gray {
+  background: silver;
+}
+.statusbar {
+  background: rgb(22, 51, 86);
+  pointer-events: none;
+}
+.statusbar span {
+  visibility: hidden;
+}
+.main td,
+.main .ant-table-thead > tr > th {
+  text-align: center;
+}
+.main .ant-table-thead > tr > th {
+  background: rgb(22, 51, 86);
+}
+.main tr:hover {
+  background: rgb(15, 64, 124);
+}
+
+.odd-row {
+  background: rgb(15, 34, 58);
+}
+.even-row {
+  background: rgb(22, 51, 86);
+}
+.main .ant-table-bordered .ant-table-thead > tr > th,
+.main .ant-table-bordered .ant-table-tbody > tr > td {
+  border-right: 1px solid rgb(93, 101, 111);
+}
+.main .ant-table-tbody > tr > td {
+  border-bottom: 1px solid rgb(93, 101, 111);
+}
+.main .ant-table-thead > tr > th {
+  color: white;
+  border-bottom: 1px solid rgb(93, 101, 111);
+}
+.main .ant-table-bordered .ant-table-header > table,
+.main .ant-table-bordered .ant-table-body > table,
+.main .ant-table-bordered .ant-table-fixed-left table,
+.main .ant-table-bordered .ant-table-fixed-right table {
+  border: 1px solid rgb(93, 101, 111);
+  border-right: 0;
+  border-bottom: 0;
+}
+.main {
+  margin-top: 40px;
+  display: block;
+  text-align: center;
+  border: 1px solid rgb(93, 101, 111);
+}
+
+.ant-select-auto-complete.ant-select .searchColor .ant-input {
+  background: #222731;
+  color: #fff;
+}
+
+.pl-search-list {
+  color: #fff;
+  background: #394150;
+  border-bottom: 1px solid #cccccc;
+}
+.pl-search-list:hover {
+  background: #4b5f85;
+}
+
+.popup-title {
+  color: white;
+}
+.popover {
+  line-height: 35px;
+}
+.popup {
+  text-align: left;
+  vertical-align: middle;
+  line-height: 35px;
+}
+.popup > p {
+  color: #cccccc;
+}
+.ant-popover-inner,
+.ant-popover-arrow {
+  background: rgba(0,0,0,0.8);
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
